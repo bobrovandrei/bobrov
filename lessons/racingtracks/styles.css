@@ -22,8 +22,10 @@ DIV .scale {transition: 0s;}
 
 .title-style {font-size: 25px;}
 
-img style {border: 0px}
-
-img {position: relative;
-    top: 78px;
-    left: 965px;}
+.Стайки {position: relative;
+         top: 71px;
+         left: 961px;} 
+    
+.Laguna {position: relative;
+        top: 62px;
+        left: 129px;}
