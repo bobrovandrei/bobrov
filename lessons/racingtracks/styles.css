@@ -1,0 +1,29 @@
+.head {
+	height: 250px;
+	position:relative;
+}	
+DIV .scale {transition: 0s;}
+.scale:hover {transform: scale(1.5);}
+
+
+.hover-image-scale {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hover-image-scale img {
+    transition: 1s;
+    display: block;
+}
+
+.hover-image-scale img:hover {
+    transform: scale(1.5);
+}             
+
+.title-style {font-size: 25px;}
+
+img style {border: 0px}
+
+img {position: relative;
+    top: 78px;
+    left: 965px;}
