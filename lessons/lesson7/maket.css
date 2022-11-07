@@ -1,0 +1,58 @@
+.head{
+    background-color: lightskyblue;
+    color: blue;
+    text-align: center;
+    height: 60px;
+}
+
+.left{
+    background-color: #F0E68C;
+    width: 30%;
+    height: 550px;
+    float: left;
+    padding-left: 32px;
+    padding-top: 31px;
+}
+
+.foto{
+    float: left;
+    margin: 23px
+}
+
+.footer{
+    background-color: lightskyblue;
+    color: blue;
+    text-align: center;
+    height: 60px;
+}
+
+@media all and (max-width: 1764px) {
+    .left{
+        height: 900px;
+        background-color: aqua;
+    }
+}
+
+@media all and (max-width: 1020px) {
+    .left{
+        height: 1200px;
+        background-color: rgb(72, 65, 168);
+    }
+}
+
+@media all and (max-width: 764px) {
+    .left{
+        height: auto;
+        width: auto;
+        background-color: rgb(131, 47, 110);
+        float: none;
+        background-image: none;
+    }
+}
+
+
+
+
+
+
+
