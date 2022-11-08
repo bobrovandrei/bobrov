@@ -1,3 +1,12 @@
+.container{
+    max-width: 1370px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .head{
     background-color: lightskyblue;
     color: blue;
@@ -8,15 +17,17 @@
 .left{
     background-color: #F0E68C;
     width: 30%;
-    height: 550px;
+    height: 702px;
     float: left;
     padding-left: 32px;
     padding-top: 31px;
+    margin-right: 33px;
 }
 
 .foto{
     float: left;
-    margin: 23px
+    margin: 23px;
+    width: 100%
 }
 
 .footer{
@@ -42,13 +53,19 @@
 
 @media all and (max-width: 764px) {
     .left{
-        height: auto;
-        width: auto;
+        height: 200px;
+        width: 100%;
         background-color: rgb(131, 47, 110);
         float: none;
         background-image: none;
     }
 }
+
+@media all and (max-width: 412px) { 
+    .foto { 
+    width: 50%;
+    } 
+    }
 
 
 
