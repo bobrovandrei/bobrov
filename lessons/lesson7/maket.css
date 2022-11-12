@@ -60,9 +60,16 @@
     }
 }
 
+@media all and (max-width: 764px) { 
+    .img {
+    margin-left: 19px;
+    } 
+    }
+
 @media all and (max-width: 412px) { 
-    .foto { 
+    .img { 
     width: 50%;
+    margin-left: 19px;
     } 
     }
 
