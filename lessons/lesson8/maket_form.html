@@ -7,13 +7,11 @@
     <title>Document</title>
     <style>
         *{
-margin: 5px;
-padding: 0;
-box-sizing: border-box;
-}
-       div{
-        margin: 10px;
-       }
+        margin: 5px;
+        padding: 0;
+        box-sizing: border-box;
+        }
+       
     </style>
 </head>
 <body>
@@ -25,9 +23,9 @@ box-sizing: border-box;
 
     <form method="get" action="http://fe.it-academy.by/TestForm.php">
         Название статьи: <br>
-        <input type="text" name="name" style="width: 272px;"><br>
+        <input type="text" name="name" style="width: 50%;"><br>
         Рубрика: <br>
-        <select name="rubric" style="width: 273px;">
+        <select name="rubric" style="width: 50%;">
             <option value="1">Компьютерная техника</option>
             <option value="2">Графика и дизайн</option>
             <option value="3">программирование</option>
@@ -39,20 +37,20 @@ box-sizing: border-box;
         Разрешить комментарии:
         <input type="checkbox"><br>
         Текст статьи: <br>
-        <textarea name="mytext" style="width: 272px;"></textarea><br>
+        <textarea name="mytext" style="width: 50%;"></textarea><br>
         <input type="submit" value="Опубликовать">
     </form>
     </div>
 
-    <div>
+    <div style="width: 100%;">
         <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p><br>
 
         <form method="get" action="http://fe.it-academy.by/TestForm.php">
         Название статьи: 
-            <input type="text" name="name" style="width: 345px; margin-left: 50px;"><br>
+            <input type="text" name="name" class="name" style="box-sizing: border-box; width: 90%; margin-left: 58px;"><br>
 
         Рубрика:    
-           <select name="rubric" style="margin-left: 107px; width: 160px;">
+           <select name="rubric" style="margin-left: 114px; width: 18%;">
                 <option value="1">программирование</option>
                 <option value="2">компьютерная техника</option>
                 <option value="3">графика и дизайн</option>
@@ -67,7 +65,7 @@ box-sizing: border-box;
             <input type="checkbox" name="checkbox"><br>  
             
         Текст статьи: <br>
-            <textarea name="text" style="width: 512px;"></textarea><br>
+            <textarea name="text" style="width: 99%;"></textarea><br>
             <input type="submit" value="Опубликовать"> 
         </form>           
     </div>
