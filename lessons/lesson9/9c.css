@@ -1,0 +1,21 @@
+.container{
+    width: 1370px;
+    margin: 0 auto;
+
+}
+
+.img1{
+    background: url(img/flag.png) no-repeat;
+    background-size: cover;
+    height: 910px;
+    margin-bottom: 10px;
+}
+
+.img2 img{
+    width: 1370px;
+}
+
+.img3 img{
+    width: 1370px;
+}
+
