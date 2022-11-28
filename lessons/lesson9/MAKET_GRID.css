@@ -1,0 +1,92 @@
+.container{
+    width: 1370px;
+    margin: 0 auto
+}
+
+.head{
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.footer{
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.body2{
+    display: grid;
+    grid-template-columns: 30% 70%
+}
+
+.left{
+    background-color: blueviolet;
+}
+
+.left h2{
+    margin-left: 21px;
+}
+
+.footer h2{
+margin: 0px;
+}
+
+.footbal{
+    text-align: center;
+}
+
+.right{
+    margin-left: 22px;
+}
+
+.right img{
+    float: left;
+}
+
+@media all and (max-width:1000px){
+    
+    .container{
+        display: grid;
+        width: 320px;
+    }
+    .head{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .left{
+        background: transparent;
+        width: 320px;
+        order: 2;
+    }
+
+    .body2{
+        display: contents;
+    }
+
+    .right img{
+        width: 320px;
+    }
+
+    .right{
+       width:  320px;
+       
+    }
+
+    .left ul li{
+        display: inline;
+        
+    }
+
+    .left ul{
+        padding: 9px;
+        width: 100%;
+    }
+
+    .left h2 {
+        margin-left: 10px;
+
+}
+}
