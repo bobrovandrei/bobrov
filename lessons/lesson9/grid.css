@@ -1,0 +1,105 @@
+.container{
+    width: 1370px;
+    margin: 0 auto;
+    
+}
+
+.head{
+    display: grid;
+    background-color: aqua;
+    grid-template-rows: 100px;
+    text-align: center;
+}
+
+.center{
+    display: grid;
+    grid-template-columns: 300px 1070px;
+}
+
+.foot{
+    display: grid;
+    grid-template-rows: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.left{
+    
+    background-color: blueviolet;
+    height: 800px;
+}
+
+.right img{
+    float: left;
+}
+    
+
+.football h2{
+    text-align: center;
+}
+
+@media all and (max-width:1000px){
+
+    .container {
+        width: 320px;}
+        
+    
+   .center{
+    width: 320px;
+    display: grid;
+    grid-template-columns: auto;
+   }
+
+   
+
+    .head{
+        display: none;
+    }
+    .foot{
+        display: none;
+    }
+    .left{
+        display: grid;
+        background-color: transparent;
+        width: 320px;
+    height: 233px;
+    order: 2;
+        
+    }
+
+    .left ul li{
+        display: inline;
+        
+    }
+
+    .right img{
+        width: 320px;
+    }
+
+    .right{
+        display: grid;
+       width:  320px;
+       
+       order: 1;
+       
+    }
+
+    .left ul{
+        padding: 0;
+        margin-top: -68px;
+    }
+
+    .left h2{
+        height: 0px;
+    margin-top: 18px;
+    }
+
+
+    
+
+    
+
+  
+
+
+}
