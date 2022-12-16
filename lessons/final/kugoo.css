@@ -684,18 +684,76 @@ text-decoration: none;
 
 /*yslovia*/
 
-.container h1{
+.text1{
     text-align: center;
     margin-top: 100px;
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
 }
 
-.oplata div{
-    width: 350px;
-height: 225px;
-border: 1px solid #EAEBED;
-border-radius: 10px;
-}
-
-.oplata{
+.block-info{
     margin-top: 70px;
+    height: 481px;
+    margin-bottom: 100px;
 }
+
+.block-info ul li h1{
+    font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+margin-top: 30px;
+}
+
+.block-info ul li p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+}
+
+.block-info ul{
+    display: grid;
+    grid-template-columns: 390px 390px 100px; 
+    grid-template-rows: 255px 20px;
+    list-style-type: none;
+}
+
+.block-info ul li{
+    width: 350px;
+    height: 225px;
+    border: 1px solid #EAEBED;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+}
+
+.block-info ul :last-child img{
+    position: absolute;
+    right: 0;
+    bottom: 0;}
+
+    /*video*/
+
+    .video{
+        width: 1380px;
+        background-color: #ffffff   ;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+    }
+
+    /*otzivi*/
+
+    .otzivi h1{
+        text-align: center;
+        font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+margin-top: 90px;
+    }
+
+    .otzivi img{
+    }
+   
+
+  
