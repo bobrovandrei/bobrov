@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var Фамилия = prompt("Ваша фамилия");
+      var Имя = prompt("Имя");
+      var Отчество = prompt("Отчество");
+      var age = parseInt(prompt("Сколько вам лет?"));
+      var gender = confirm("Bаш пол - мужской?");
+      var pensia = "";
+      var resulgender = "";
+
+      pensia = (gender && age >= 62) || (!gender && age >= 58) ? "да" : "нет";
+
+      resulgender = gender ? "мужской" : "женский";
+
+      var result =
+        "Ваше ФИО: " +
+        Фамилия +
+        " " +
+        Имя +
+        " " +
+        Отчество +
+        "\n" +
+        "ваш возраст в годах: " +
+        age +
+        "\n" +
+        "ваш возраст в днях: " +
+        age * 365 +
+        "\n" +
+        "через 5 лет вам будет: " +
+        (age += 5) +
+        "\n" +
+        "ваш пол:  " +
+        resulgender +
+        "\n" +
+        "вы на пенсии:" +
+        pensia;
+
+      alert(result);
+    </script>
+  </body>
+</html>
