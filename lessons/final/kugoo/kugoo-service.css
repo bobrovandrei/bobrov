@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    }
+
+    .body{
+        overflow-x: hidden;
+    }
+
+    .clearfix{
+        clear: both;
+    }
+
+    /*head_top*/
+
+.container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+}    
+
+.container h1{
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #282739;
+}
+
+.container p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #282739;
+}
+
+.head_top ul{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    padding: 0;
+}
+
+.head_top ul li{
+    display: inline;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+    text-decoration: none;
+}
+
+.head_top ul li a{
+    text-decoration: none;
+    color: #5D6C7B;
+}
+
+.line{
+    border: 1px solid #ECF3FF;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+/*head_top2*/
+
+.head_top2{
+    display: flex;
+}
+
+.head_top2 h1{
+    margin-right: 35px;
+    font-weight: 700;
+font-size: 30px;
+line-height: 43px;
+text-transform: uppercase;
+color: #282739;
+margin-top: 27px;
+
+}
+
+.head_top2 a{
+    font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+background: #6F73EE;
+border: 1.5px solid #6F73EE;
+border-radius: 5px;
+color: #FFFFFF;
+width: 114px;
+    height: 40px;
+    margin-top: 28px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.head_top2 p{
+    margin-top: 7px;
+}
+
+.d1{
+    height: 69px;
+}
+
+.d1 input {
+  width: 603px;
+  height: 40px;
+  padding-left: 10px;
+  border: 1.5px solid #6F73EE;
+border-radius: 5px;
+  outline: none;
+  color: #9E9C9C;
+  margin-top: 28px;
+    margin-left: 20px;
+    text-align: center;
+}
+.d1 button {
+  position: absolute; 
+  top: 28px;
+    right: -322px;
+  width: 40px;
+    height: 40px;
+  border: 1.5px solid #6F73EE;
+  background-color: #6F73EE;
+ border-radius: 5px;
+  cursor: pointer;
+}
+.d1 button:before {
+  content: url(kugoo_img/ыуфкср.png);
+  font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #5D6C7B;
+}
+
+.d1 form{
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+      }
+
+.d1 select{
+    position: absolute;
+    left: 21px;
+    top: 29px;
+    width: 76px;
+    height: 37px;
+    background: #F4F7FB;
+    border-radius: 5px;
+    border: none;
+}      
+
+
+
+.head_top2 ul{
+    margin-left: 340px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 34px;
+}
+
+.head_top2 ul li{
+    margin-right: 26px;
+}
+
+/*info*/
+
+.info{
+    height: 40px;
+    background: #F4F7FB;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.info ul{
+    padding: 7px;
+}
+
+.info ul li{
+    display: inline;
+    margin-right: 50px;
+   
+}
+
+.info a{
+    text-decoration: none;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #282739;
+}
+
+.info ul :nth-child(3){
+    width: 236px;
+    height: 34px;
+    background: #6F73EE;
+    border-radius: 300px;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: -49px;
+}
+
+.info img{
+    margin-left: -47px;
+    position: absolute;
+}
+
+/*banner*/
+
+.banner{
+    position: relative;
+    width: 1380px;
+height: 421px;
+background: radial-gradient(74.38% 244.23% at 75.04% 76.25%, #FFC960 0%, #F3A712 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+padding-top: 60px;
+    padding-left: 135px;
+}
+
+.banner h1{
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.banner p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+.banner ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.banner ul li{
+    margin-right: 60px;
+    margin-top: 30px;
+    color: white;
+}
+
+.banner button{
+    width: 160px;
+height: 53px;
+    background: #FFFFFF;
+border-radius: 5px;
+color: #F3A712;
+border: none;
+cursor: pointer;
+margin-top: 46px;;
+}
+
+.banner img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*diagnostika*/
+
+.diagnostika-vse{
+    display: flex;
+}
+
+.diagnostika h1{
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 100px;
+margin-bottom: 80px;
+
+}
+
+.diagnostika-left{
+    text-align: right;
+}
+
+.diagnostika-centr img{
+    border-radius: 215px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.diagnostika-vse h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.diagnostika-vse p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 20px;
+}
+.diagnostika-right{
+    text-align: left;
+}
+
+/*remont*/
+
+.remont h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.remont p{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.remont-button ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.remont-button button{
+    width: 194px;
+    height: 53px;
+    margin-right: 10px;
+    border: none;
+    background: #F4F7FB;
+border-radius: 5px;
+color: #5D6C7B;
+cursor: pointer;
+}
+
+.remont-button{
+    justify-content: center;
+    display: flex;
+}
+
+.remont-vibor{
+    width: 350px;
+height: 439px;
+background: #F4F7FB;
+border-radius: 10px;
+margin-top: 87px;
+padding: 34px;
+float: left;
+}
+
+.remont-vibor ul li{
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.remont-vibor h5{
+    font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+}
+
+.remont-vibor ul li :hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.remont-vibor-right{
+    width: 730px;
+    height: 439px;
+    border: 1px solid #EAEBED;
+border-radius: 10px;
+float: right;
+    margin-top: 87px;
+    
+}
+
+.remont-vibor-right p{
+    text-align: left;
+    padding: 36px;
+    margin-bottom: -40px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.remont-vibor-right hr{
+    color: #EAEBED;
+    width: 247%;
+}
+
+/*banner2*/
+
+.banner2{
+    width: 1380px;
+height: 421px;
+background: radial-gradient(64.24% 330.33% at 21.88% 87.41%, #539DFF 0%, #2777FC 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(76.7% 707.77% at 23.3% 72.57%, #595959 0%, #3B3E46 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 10px;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.banner2 img{
+    padding: 80px;
+}
+
+.ysluga{
+    width: 62px;
+height: 27px;
+background: #75D14A;
+border-radius: 5px;
+color: white;
+text-align: center;
+margin-top: 67px;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}
+
+.vid{
+    float: left;
+}
+
+.text{
+    float: left;
+}
+
+.text h1{
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 27px;
+}
+
+.text button{
+    width: 240px;
+height: 53px;
+background: #FFFFFF;
+border-radius: 5px;
+color: #3C89FD;
+border: none;
+margin-top: 27px;
+cursor: pointer;
+}
+
+/*gidro*/
+
+.gidro{
+    width: 1380px;
+    height: 392px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.gidro img{
+    border-radius: 10px;
+   
+}
+
+.gidro-text{
+    margin-left: 66px;
+}
+
+.gidro-text h1{
+    text-transform: uppercase;
+    font-weight: 600;
+font-size: 25px;
+line-height: 36px;
+}
+
+.gidro-text h2{
+    font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+margin-top: 28px;
+margin-bottom: 15px;
+}
+
+.srok-left h1{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.srok-left h2{
+    font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.srok-left{
+    margin-top: 100px;
+    float: left;
+}
+
+.srok-right img{
+    width: 542px;
+height: 499px;
+border-radius: 10px;
+float: right;
+margin-top: 100px;
+}
