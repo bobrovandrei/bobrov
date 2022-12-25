@@ -5,10 +5,6 @@
     font-family: 'Jost', sans-serif;
     }
 
-    .body{
-        overflow-x: hidden;
-    }
-
     .clearfix{
         clear: both;
     }
@@ -521,3 +517,175 @@ border-radius: 10px;
 float: right;
 margin-top: 100px;
 }
+
+/*banner4*/
+
+.banner4{
+    width: 1380px;
+height: 481px;
+background: #F4F7FB;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+padding: 100PX;
+position: relative;
+}
+
+.banner4 button{
+    width: 176px;
+height: 53px;
+background: #6F73EE;
+border-radius: 5px;
+color: white;
+border: none;
+margin-top: 155px;
+cursor: pointer;
+}
+
+.banner4 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*komanda*/
+
+.komanda{
+    display: flex;
+    margin-top: 50px;
+}
+
+.komanda-left{
+    width: 515px;
+    height: 107px;
+    border: 1px solid #EAEBED;
+    border-radius: 10px;
+    margin-right: 71px;
+    padding: 27px;
+    display: flex;
+}
+
+.komanda-right{
+    width: 515px;
+    height: 107px;
+    border: 1px solid #EAEBED;
+    border-radius: 10px;
+    padding: 27px;
+    display: flex;
+}
+
+.komanda-left p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+margin-left: 29px;
+}
+
+.komanda-right p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+margin-left: 29px;
+}
+
+.servis{
+    margin-top: 50px;
+}
+
+.servis img{
+    width: 254px;
+height: 318px;
+}
+
+.servis ul li{
+    width: 255px;
+    height:319px;
+    background: #F4F7FB;
+    border-bottom: 1px solid #6F73EE;
+    text-align: center;
+    margin-right: 30px;
+    }
+    
+    .servis h1{
+        font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    }
+    
+    .servis p{
+        font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    }
+    .servis-text{
+        background-color: white;
+    }
+    
+    .servis ul{
+        display: flex;
+        list-style-type: none;
+    }
+
+    .rabota-img{
+        width: 1380px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rabota-img img{
+        border-radius: 10px;
+    }
+
+    /*footer*/
+
+    .info2 {
+        background: #6F73EE;
+        height: 97px;
+        margin-top: 73px;
+    }
+    
+    .pre-footer {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        color: white;
+        float: left;
+        width: 100%;}
+    
+        .pre-footer-left {
+            display: flex;}
+    
+            
+    
+                .info3 {
+                    background: #F4F7FB;
+                    height: 360px;}
+    
+                    .info2 ul {
+                        float: left;
+                        list-style-type: none;
+                        margin-right: 80px;
+                        margin-top: 39px;
+                        margin-bottom: 42px;}
+    
+                        .line {
+                            border: 1px solid #5D6C7B;
+                            opacity: 0.15;
+                            width: 100%;
+                            position: absolute;
+                            left: 0;}    
+                            
+                            .footer-bottom {
+                                margin-top: 36px;
+                                margin-bottom: 36px;
+                                display: flex;}
+    
+                                .footer a {
+                                    text-decoration: none;
+                                    color: #5D6C7B;}
+    
+                                    .info2 ul :last-child {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 23px;}
