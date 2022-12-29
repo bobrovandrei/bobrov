@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    }
+
+    .body{
+        overflow-x: hidden;
+    }
+
+    .clearfix{
+        clear: both;
+    }
+
+    /*head_top*/
+
+.container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+}    
+
+.head_top ul{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    padding: 0;
+}
+
+.head_top ul li{
+    display: inline;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+    text-decoration: none;
+}
+
+.head_top ul li a{
+    text-decoration: none;
+    color: #5D6C7B;
+}
+
+.line{
+    border: 1px solid #ECF3FF;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+/*head_top2*/
+
+.head_top2{
+    display: flex;
+}
+
+.head_top2 h1{
+    margin-right: 35px;
+    font-weight: 700;
+font-size: 30px;
+line-height: 43px;
+text-transform: uppercase;
+color: #282739;
+margin-top: 27px;
+
+}
+
+.head_top2 a{
+    font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+background: #6F73EE;
+border: 1.5px solid #6F73EE;
+border-radius: 5px;
+color: #FFFFFF;
+width: 114px;
+    height: 40px;
+    margin-top: 28px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.head_top2 p{
+    margin-top: 7px;
+}
+
+.d1{
+    height: 69px;
+}
+
+.d1 input {
+  width: 603px;
+  height: 40px;
+  padding-left: 10px;
+  border: 1.5px solid #6F73EE;
+border-radius: 5px;
+  outline: none;
+  color: #9E9C9C;
+  margin-top: 28px;
+    margin-left: 20px;
+    text-align: center;
+}
+.d1 button {
+  position: absolute; 
+  top: 28px;
+    right: -322px;
+  width: 40px;
+    height: 40px;
+  border: 1.5px solid #6F73EE;
+  background-color: #6F73EE;
+ border-radius: 5px;
+  cursor: pointer;
+}
+.d1 button:before {
+  content: url(kugoo_img/ыуфкср.png);
+  font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #5D6C7B;
+}
+
+.d1 form{
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+      }
+
+.d1 select{
+    position: absolute;
+    left: 21px;
+    top: 29px;
+    width: 76px;
+    height: 37px;
+    background: #F4F7FB;
+    border-radius: 5px;
+    border: none;
+}      
+
+
+
+.head_top2 ul{
+    margin-left: 340px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 34px;
+}
+
+.head_top2 ul li{
+    margin-right: 26px;
+}
+
+/*info*/
+
+.info{
+    height: 40px;
+    background: #F4F7FB;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.info ul{
+    padding: 7px;
+}
+
+.info ul li{
+    display: inline;
+    margin-right: 50px;
+   
+}
+
+.info a{
+    text-decoration: none;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #282739;
+}
+
+.info ul :nth-child(3){
+    width: 236px;
+    height: 34px;
+    background: #6F73EE;
+    border-radius: 300px;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: -49px;
+}
+
+.info img{
+    margin-left: -47px;
+    position: absolute;
+}
+
+/*banner*/
+
+.banner{
+    width: 1380px;
+height: 200px;
+background: url(kugoo_img/Mask\ Group.png);
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 57px;
+}
+
+.banner h1{
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 50px;
+}
+
+/*otpravka*/
+
+.otpravka h1{
+margin-top: 60px;
+font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.otpravka-ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.otpravka-ul ul li{
+    list-style-type: none;
+}
+
+.otpravka-buttons{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.otpravka h4{
+    margin-bottom: 10px;
+}
+
+/*banner2*/
+
+.banner2{
+    width: 1380px;
+height: 518px;
+margin-top: 100px;
+background: radial-gradient(64.2% 266.22% at 23.3% 72.57%, #FF9F73 0%, #DC7749 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+padding: 80px;
+position: relative;
+}
+
+.banner2-left{
+    color: white;
+}
+
+.banner2-left h1{
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+margin-bottom: 31px;
+}
+
+/*voprosi*/
+
+.voprosi{
+    width: 1380px;
+height: 399px;
+background: #F4F7FB;
+border-radius: 10px;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+padding: 80px;
+position: relative;
+}
+
+/*footer*/
+
+.info2 {
+    background: #6F73EE;
+    height: 97px;
+    margin-top: 73px;
+}
+
+.pre-footer {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    float: left;
+    width: 100%;}
+
+    .pre-footer-left {
+        display: flex;}
+
+        
+
+            .info3 {
+                background: #F4F7FB;
+                height: 360px;}
+
+                .info2 ul {
+                    float: left;
+                    list-style-type: none;
+                    margin-right: 80px;
+                    margin-top: 39px;
+                    margin-bottom: 42px;}
+
+                    .line {
+                        border: 1px solid #5D6C7B;
+                        opacity: 0.15;
+                        width: 100%;
+                        position: absolute;
+                        left: 0;}    
+                        
+                        .footer-bottom {
+                            margin-top: 36px;
+                            margin-bottom: 36px;
+                            display: flex;}
+
+                            .footer a {
+                                text-decoration: none;
+                                color: #5D6C7B;}
+
+                                .info2 ul :last-child {
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 23px;}
