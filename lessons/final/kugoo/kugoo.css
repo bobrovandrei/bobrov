@@ -901,6 +901,8 @@ line-height: 51px;
 
   
 
+  /*footer*/
+  
   .pre-footer{
     
     font-weight: 600;
@@ -911,7 +913,7 @@ float: left;
 width: 100%;
   }
 
-  /*pre-footer*/
+  
 
   .pre-footer-left{
     display: flex;
@@ -958,3 +960,98 @@ width: 100%;
     background: #F4F7FB;
     height: 360px;
   }
+
+  @media all and (max-width: 1901px) {
+    .container{
+        width: 980px;
+    }
+    .bunner img{
+        width: 980px;
+    }
+    .mini1 img{
+        display: none;
+    }
+.mini2 img{
+    display: none;
+}
+.mini1{
+    width: 480px;
+}
+.mini2{
+    width: 480px;
+}
+.banner2{
+    width: 980px;
+}
+.banner2 img{
+    width: 446px;
+    margin-top: 129px;
+}
+.kategorii-blok{
+    overflow-x: scroll;
+}
+.samokat{
+    width: 100%;
+    overflow-x: scroll;
+}
+.diler{
+    width: 980px;
+}
+.diler_img{
+    display: none;
+}
+.block-info{
+    overflow-x: overlay;
+}
+.video{
+    display: none;
+}
+/* .otzivi{
+    overflow-x: scroll;
+} */
+.container2{
+    width: 980px;
+}
+.videos{
+    overflow-x: scroll;
+} 
+.blog {
+    overflow-x: scroll;
+    width: 100%;
+}
+.head_top2 ul{
+    margin-left: 208px;
+}
+.d1 input{
+    width: 476px;
+}
+.d1 button{
+    right: -196px;
+}
+}
+
+@media all and (max-width: 1000px) {
+    .otzivi{
+        overflow-x: scroll;
+        width: 980px;
+    }
+    .info3{
+        width: 980px;
+
+    }
+    .info2{
+        width: 980px;
+    }
+    .info{
+        width: 980px;
+    }
+    .line{
+        width: 980px;
+    }
+}
+
+@media all and (max-width: 1805px) {
+    .otzivi{
+        overflow-x: scroll;
+    }
+}
