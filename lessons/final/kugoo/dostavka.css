@@ -273,6 +273,8 @@ text-transform: uppercase;
 margin-bottom: 31px;
 }
 
+
+
 /*voprosi*/
 
 .voprosi{
@@ -285,6 +287,12 @@ margin-left: auto;
 margin-right: auto;
 padding: 80px;
 position: relative;
+}
+
+.voprosi img{
+    position: absolute;
+    bottom: 0;
+    right: 95px;
 }
 
 /*footer*/
@@ -339,3 +347,61 @@ position: relative;
                                     font-weight: 400;
                                     font-size: 16px;
                                     line-height: 23px;}
+
+.banner2-right{
+    position: absolute;
+            right: 144px;
+            bottom: 0;
+}
+/*media*/
+
+@media all and (max-width: 1390px){
+    .container{
+        width: 1024px;
+    }
+    .banner{
+        width: 1024px;
+    }
+    .banner2{
+        width: 1024px;
+    }
+    .banner2-right{
+        right: 0;
+    }
+
+    .voprosi{
+        width: 1024px;
+    }
+
+    .voprosi img{
+        left: 610px;
+    position: absolute;
+    bottom: 0;
+}
+
+@media all and (max-width: 1020px){
+    .info2{
+        width: 1028px;
+    }
+    .info3{
+        width: 1028px;
+    }
+    .info{
+        width: 1028px;
+    }
+    .line{
+        width: 1028px;
+    }
+}
+
+.head_top2 ul{
+    margin-left: 257px;
+}
+.d1 input{
+    width: 505px;
+}
+.d1 button{
+    right: -224px;
+}
+    
+}

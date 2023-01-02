@@ -426,7 +426,7 @@ margin-bottom: 20px;
     display: flex;
 }
 
- /*pre-footer*/
+ /*footer*/
 
  .info2 {
     background: #6F73EE;
@@ -478,3 +478,48 @@ margin-bottom: 20px;
                                     font-weight: 400;
                                     font-size: 16px;
                                     line-height: 23px;}
+
+/*media*/
+
+@media all and (max-width: 1380px){
+    .container{
+        width: 1024px;
+    }
+    .banner1{
+        width: 1024px;
+    }
+    .banner2{
+        width: 1024px;
+    }
+    .banner2 img{
+        width: 490px;
+        margin-top: 83px;
+    }
+    .d1 input{
+        width: 498px;
+    }
+    .d1 button{
+        right: -217px;
+    }
+    .head_top2 ul{
+        margin-left: 284px;
+    }
+    .parts{
+        overflow-x: scroll;
+    }
+}
+
+@media all and (max-width: 1020px){
+    .info2{
+        width: 1028px;
+    }
+    .info3{
+        width: 1028px;
+    }
+    .info{
+        width: 1028px;
+    }
+    .line{
+        width: 1028px;
+    }
+}
