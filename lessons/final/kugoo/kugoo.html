@@ -19,7 +19,7 @@
         <ul>
           <li><a href="kugoo-service.html">Сервис</a></li>
           <li><a href="#">Сотрудничество</a></li>
-          <li><a href="#">Заказать звонок</a></li>
+          <li><a href="voprosi.html">Заказать звонок</a></li>
           <li>
             <a href="#"><img src="kugoo_img/Vector (1).png" /></a>
           </li>
@@ -110,10 +110,14 @@
       <!--bunner-->
 
       <div class="bunner">
-        <p><img src="kugoo_img/Rectangle 161.png"></p>
-        <!--<div class="container">
-            <h1>Электросамокаты Kugoo Kirin от официального дилера</h1>
-        <img src="kugoo_img/6V7A6482_adobespark 2.png">-->
+        <button>Новинка</button>
+        <h1>Электросамокаты Kugoo Kirin<br> от официального дилера</h1>
+        <p>с бесплатной доставкой по РФ от 1 дня</p>
+        <button><a href="kugoo-catalog.html">Перейти в католог</a></button>
+
+        <img src="kugoo_img/Group 1660.png" alt="img" title="img">
+       
+      
       </div>
 
       <div class="container">
@@ -464,10 +468,12 @@
     
     <div class=" diler">
       <div class="diler_img">
-        <div class="blur2"><a href="#">Тест-драйв в Москве <br> от 29 900p </a>
+        <div class="blur2"><button><a href="#">Подробнее &#8594;</a></button>
+          <p>
+          Тест-драйв в Москве <br> от 29 900p </p>
         </div>
       </div>
-      <div class="podrobno">
+      <div class="podrobno2">
         <h1>KUGOO-BELARUS — ПЕРВЫЙ<br> ОФИЦИАЛЬНЫЙ ДИЛЕР<br> KUGOO KIRIN в РБ</h1>
         <p>Наша цель предоставить полный ассортимент современной продукции<br> 
           Kugoo Kirin, которая улучшает и упрощает жизнь. Стремимся подарить<br>
@@ -598,7 +604,7 @@
 
         <!--vopros-->
 
-        <h1>Отвечаем на вопросы<br>
+        <h1 style="text-align: center; margin-top: 60px; margin-bottom:60px;">Отвечаем на вопросы<br>
            покупателей</h1>
         <div class="vopros">
          <ul id="dropDown--menu">
@@ -690,7 +696,7 @@
     <!--pokupki-->
 
     <div class="container2">
-      <h1>ЧАСТО ПОКУПАЮТ</h1>
+      <h1 style="text-align: center; margin-top:80px; margin-bottom:60px;">ЧАСТО ПОКУПАЮТ</h1>
       <div class="samokat" style="grid-template-rows: 492px;">
         <div class="ves">
           <div class="podrobno">
@@ -907,10 +913,35 @@ padding: 25px;"
     </div>
     </div>
 
+    <!-- mobile -->
+
+    <div class="mobile">
+      <div class="head5">
+        <a href="#"><img src="kugoo_img/Group 1907.png" alt="img" title="img"></a>
+      </div>
+      <div class="head6">
+        <h1>kugoo</h1>
+        <img src="kugoo_img/Vector (6).png" alt="img">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Главная</a></li>
+            <li><a class="menu__item" href="#">Каталог</a></li>
+            <li><a class="menu__item" href="#">Команда</a></li>
+            <li><a class="menu__item" href="#">Блог</a></li>
+            <li><a class="menu__item" href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 
     <script>
 
-      var elems = document.getElementsByTagName('plus');
+      var elems = document.getElementsByClassName('plus');
 
       for(var i = 0; i < elems.length; i++) {
         var elem = elems[i];

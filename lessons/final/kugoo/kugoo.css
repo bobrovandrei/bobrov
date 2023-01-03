@@ -79,8 +79,8 @@ width: 114px;
     text-align: center;
 }
 
-.head_top2 p{
-    margin-top: 7px;
+.head_top2 a p{
+    margin-top: 6px;
 }
 
 .d1{
@@ -193,17 +193,80 @@ color: #282739;
 
 /*bunner*/
 
-.bunner p{
-    text-align: center;
-    margin-top: 31px;}
 
-/*.bunner :nth-child(2){
-    background-repeat: no-repeat;
-    z-index: 1;
-    position: absolute;
-    top: 231px;
-    right: 300px;
+.bunner {
+    width: 1380px;
+    height: 421px;
+    position: relative;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+background-image: url(kugoo_img/Mask\ Group\ \(2\).png);}
+
+.bunner button{
+    width: 74px;
+height: 27px;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: white;
+background-color: rgb(255 235 205 / 0%);
+text-align: center;
+margin-left: 135px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
+
+.bunner h1{
+    font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 135px;
+margin-bottom: 7px;
+}
+
+.bunner p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #FFFFFF;
+margin-left: 135px;
+}
+
+.bunner :nth-child(4){
+    width: 177px;
+height: 53px;
+background: #FFFFFF;
+border-radius: 5px;
+
+border: none;
+cursor: pointer;
+
+margin-left: 135px;
+margin-bottom: 35px;
+margin-top: 35px;
+}
+
+.bunner a {
+    text-decoration: none;
+    font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #6F73EE;
+}
+
+.bunner :nth-child(5){
+    position: absolute;
+    right: 428px;
+    top: 270px;
+}
+
+
 
 /*info2*/
 
@@ -228,6 +291,11 @@ line-height: 23px;
 
 .info2 img{
     margin-top: 30px;
+    margin-left: 188px;
+}
+
+.podrobno{
+    position: relative;
 }
 
 /*vibor*/
@@ -306,7 +374,7 @@ line-height: 17px;
 text-align: center;
 padding: 3px;
     position: absolute;
-    top: 962px;
+    top: 0px;
 }
 
 .opisanie{
@@ -581,6 +649,27 @@ color: #6F73EE;
 
 /*diler*/
 
+.diler_img button{
+    background-color: #6F73EE;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+}
+
+.blur2 p{
+    font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+text-align: center;
+    margin-top: 17px;
+
+}
+
 .diler{
     width: 1380px;
     height: 623px;
@@ -619,17 +708,16 @@ color: #6F73EE;
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
-    margin: 9px;
     text-decoration: none;
     display: block;
     text-align: center;
 }
 
-.podrobno{
+.podrobno2{
     float: right;
 }
 
-.podrobno h1{
+.podrobno2 h1{
     font-weight: 600;
     font-size: 35px;
     line-height: 51px;
@@ -638,7 +726,7 @@ color: #6F73EE;
     top: 58px;
 }
 
-.podrobno p{
+.podrobno2 p{
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
@@ -816,6 +904,10 @@ margin-left: 30px;
 
    /*blog*/
 
+   .blog img{
+    border-radius: 5px;
+   }
+
 .blog{
     display: flex;
     flex-wrap: nowrap;
@@ -855,14 +947,14 @@ margin-top: 10px;
   /*vopros*/
 
   .vopros{
-    width: 1380px;
+    width: 740px;
     margin: 0 auto;
     
   }
 
   #dropDown--menu li{
     padding: 0.1px;
-    min-height: 50px;
+    
 list-style-type: none;
 border-bottom: 1px solid rgb(176, 176, 176);
 position: relative;
@@ -873,12 +965,14 @@ position: relative;
   }
   #dropDown--menu li p{
     display: none;
+    transition: 0.5s;
   }
 
   #dropDown--menu li div{
     position: absolute;
     top: 0;
     right: 0;
+    transition: 0.5s;
   }
 
    
@@ -905,9 +999,7 @@ width: 100%;
     display: flex;
   }
 
-  .pre-footer-right{
-    
-  }
+  
 
   .info2{
     background: #6F73EE;
@@ -951,8 +1043,26 @@ width: 100%;
     .container{
         width: 980px;
     }
-    .bunner img{
-        width: 980px;
+    .bunner button{
+        margin-left: 50px;
+    }
+    .bunner h1{
+        margin-left: 50px;
+    }
+    .bunner p{
+        margin-left: 50px;
+    }
+    .bunner :nth-child(4){
+        margin-left: 50px;
+    }
+    .bunner{
+        width: 1024px;
+    }
+    .bunner :nth-child(5){
+        right: 72px;
+    }
+    .info2 img{
+        margin-left: 55px;
     }
     .mini1 img{
         display: none;
@@ -1016,7 +1126,7 @@ width: 100%;
 }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
     .otzivi{
         overflow-x: scroll;
         width: 980px;
@@ -1040,4 +1150,132 @@ width: 100%;
     .otzivi{
         overflow-x: scroll;
     }
+}
+
+/* mobile */
+
+/* gamburger */
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  /* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+
+@media all and (max-width: 1000px){
+    
+    .container{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    .bunner{
+        display: none;
+    }
+    .banner2{
+        display: none;
+    }
+    .diler{
+        display: none; 
+    }
+    .otzivi h1{
+        display: none; 
+    }
+    .otzivi{
+        display: none; 
+    }
+    .container2{
+        display: none;
+    }
+    .info2{
+        display: none;
+    }
+    .info3{
+        display: none;
+    }
+}
+
+    
+
+@media all and (min-width: 1001px){
+.mobile{
+    display: none;
+}
+
 }

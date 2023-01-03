@@ -337,11 +337,12 @@ margin-top: 6px;
     text-align: center;
     padding: 3px;
     position: absolute;
-    top: 976px;
+    top: 0px;
 }
 
 .podrobno{
     border: none;
+    position: relative;
 }
 
 .podrobno img{
