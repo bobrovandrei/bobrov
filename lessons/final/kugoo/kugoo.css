@@ -1154,25 +1154,20 @@ width: 100%;
 
 /* mobile */
 
-/* gamburger */
-
-/* скрываем чекбокс */
 #menu__toggle {
     opacity: 0;
   }
-  /* стилизуем кнопку */
+  
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center;  /* центрируем содержимое кнопки */
-    position: fixed;
-    top: 20px;
-    left: 20px;
+    position: absolute;
+    right: 16px;
+    top: 71px;
     width: 26px;
     height: 26px;
     cursor: pointer;
     z-index: 1;
   }
-  /* добавляем "гамбургер" */
+
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -1180,7 +1175,7 @@ width: 100%;
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #616161;
+    background-color: #6F73EE;
   }
   .menu__btn > span::before {
     content: '';
@@ -1190,8 +1185,7 @@ width: 100%;
     content: '';
     top: 8px;
   }
-
-  /* контейнер меню */
+  
 .menu__box {
     display: block;
     position: fixed;
@@ -1207,7 +1201,7 @@ width: 100%;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   }
-  /* элементы меню */
+  
   .menu__item {
     display: block;
     padding: 12px 24px;
@@ -1278,4 +1272,277 @@ width: 100%;
     display: none;
 }
 
+}
+
+/* mobile */
+
+.mobile{
+    width: 320px;
+    position: relative;
+}
+
+.head6 img{
+    position: absolute;
+    right: 57px;
+    top: 66px;
+}
+
+.head6{
+    margin-left: 13px;
+}
+
+.search2{
+    
+margin-left: 14px;
+}
+
+     .search2 input, .search2 button {
+  outline: none;
+  background: transparent;
+}
+.search2 input {
+    width: 288px;
+    height: 35px;
+  padding-left: 15px;
+  background: #F4F7FB;
+border-radius: 5px;
+border: none;
+}
+.search2 button {
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.search2 button:before {
+  content: url(kugoo_img/Vector\ \(7\).png);
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #0e0b06;
+  position: absolute;
+    top: 124px;
+    right: 28px;
+}
+.search2 input:focus {
+  border-color: #311c24
+}
+
+/*bunner*/
+
+
+.bunner5 {
+    position: relative;
+    border-radius: 5px;
+    width: 288px;
+height: 124px;
+    position: relative;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+    background: radial-gradient(69.05% 611.89% at 82.12% 77.02%, #A6A9FF 0%, #6F73EE 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #C4C4C4;
+}
+
+.bunner5 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bunner5 button{
+    width: 44px;
+height: 17px;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+font-weight: 400;
+font-size: 8px;
+line-height: 12px;
+color: white;
+background-color: rgb(255 235 205 / 0%);
+text-align: center;
+margin-left: 15px;
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+
+.bunner5 h1{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 129.5%;
+    margin-left: 15px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.bunner5 p{
+    font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+color: #FFFFFF;
+margin-left: 15px;
+margin-top: 5px;
+}
+
+/*samokati*/
+
+.samokat5{
+    display: grid;
+    grid-template-columns: 255px 255px 255px 255px;
+    
+    border-radius: 10px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    overflow-x: scroll;
+    margin-left: 15px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.samokat5 div{
+    border: 1.5px solid #eaebed; border-radius: 10px;
+   
+    
+}
+
+.podrobno5{
+    Width:255px;
+Height:231px;
+background-color: #F0F1F5;
+
+border-radius: 10px 10px 0px 0px;
+background-repeat: no-repeat;
+margin-top: 0;
+}
+
+.podrobno5 img{
+    margin-top: 27px;
+}
+
+.hit{
+    width: 41px;
+    height: 25px;
+    background: #EE685F;
+border-radius: 5px;
+color: #FFFFFF;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+padding: 3px;
+    position: absolute;
+    top: 0px;
+}
+
+.opisanie5{
+    margin-left: 24px;
+    border: none;
+    border-color: #FFFFFF;
+}
+
+.opisanie5 h3{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+}
+
+.figure{
+    border: none;
+}
+
+
+
+.smotret_vse a{
+    text-decoration: none;
+    font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #6F73EE;
+}
+
+/* footer*/
+
+.prefooter{
+    width: 320px;
+height: 226px;
+background: #6F73EE;
+margin-top: 25px;
+padding-top: 20px;
+}
+
+.prefooter h1{
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+
+}
+
+.footer5{
+    width: 320px;
+height: 357px;
+background: #F4F7FB;
+padding-top: 25px;
+position: relative;
+}
+
+.footer5 img{    
+    margin-left: 30px;
+}
+.footer5 p{
+    text-align: center;
+    font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+color: #5D6C7B;
+}
+
+.footer5 a{
+    text-decoration: none;
+}
+
+/* fix-panel */
+
+.fix-panel{
+    background-color: #fafafa;
+    position: fixed;
+    bottom: 0%;
+    width: 320px;
+height: 49px;
+}
+
+.fix-panel ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.fix-panel p{
+    font-weight: 400;
+font-size: 8px;
+line-height: 12px;
+text-align: center;
+color: #5D6C7B;
+
+}
+
+.fix-panel a{
+    text-decoration: none;
+}
+
+.fix-panel ul li{
+    margin-right: 30px;
+}
+
+.fix-panel img{
+    margin-left: 5px;
 }
