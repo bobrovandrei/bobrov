@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="test.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input
+      type="button"
+      value="ввод информации о стране"
+      onclick="addCountry()"
+    />
+    <br />
+    <input
+      type="button"
+      value="получение информации о стране"
+      onclick="getInfo()"
+    />
+    <br />
+    <input
+      type="button"
+      value="перечень всех стран"
+      onclick="ListCountries()"
+    />
+    <br />
+    <input
+      type="button"
+      value="удаление информации о стране"
+      onclick="DeletedCountry()"
+    />
+
+    <script>
+      var country = {};
+
+      function addCountry() {
+        var countryName = prompt("conN");
+        var capitalName = prompt("capN");
+        country[countryName] = capitalName;
+      }
+
+      function getInfo() {
+        countryName = prompt("what con?");
+        if (countryName in country)
+          alert(countryName + ":" + country[countryName]);
+        else alert("no info");
+      }
+
+      function ListCountries(countryName, capitalName) {
+        console.log(country);
+        // alert(country[countryName]);
+      }
+
+      function DeletedCountry(countryName) {
+        var countryName = prompt("which country delete? ");
+        if (countryName in country) delete country[countryName];
+        else alert("no country, try again");
+      }
+
+      // var countrysH = {};
+
+      // function inputCountryInfo() {
+      //   var countryName = prompt("страна");
+      //   var coutryCapital = prompt("столица");
+      //   addCountry(countryName, coutryCapital);
+      // }
+
+      // function addCountry(countryName, capitalName) {
+      //   countrysH[countryName] = capitalName;
+      // }
+
+      // function getinputCountry(countryName) {
+      //   if (countryName in countrysH)
+      //     return (
+      //       "страна: " + countryName + " столица: " + countrysH[countryName]
+      //     );
+      //   return "нет информации о стране " + countryName + "!";
+      // }
+
+      // function inputCountry() {
+      //   var countryName = prompt("страна");
+      //   alert(getinputCountry(countryName));
+      // }
+
+      // function getAll() {}
+    </script>
+  </body>
+</html>
