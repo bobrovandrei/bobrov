@@ -1229,6 +1229,7 @@ width: 100%;
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
+    z-index: 1;
   }
 
 @media all and (max-width: 1000px){
