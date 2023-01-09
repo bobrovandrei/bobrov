@@ -1288,12 +1288,11 @@ width: 100%;
 }
 
 .head6{
-    margin-left: 13px;
+    margin-left: 16px;
 }
 
 .search2{
-    
-margin-left: 14px;
+margin-left: 16px;
 }
 
      .search2 input, .search2 button {
@@ -1391,7 +1390,7 @@ margin-top: 5px;
 .samokat5{
     display: grid;
     grid-template-columns: 255px 255px 255px 255px;
-    
+    width: 290px;
     border-radius: 10px;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
@@ -1488,7 +1487,7 @@ margin-bottom: 20px;
 
 .footer5{
     width: 320px;
-height: 357px;
+height: 283px;
 background: #F4F7FB;
 padding-top: 25px;
 position: relative;
