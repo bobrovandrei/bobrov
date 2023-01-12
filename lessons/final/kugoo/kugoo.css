@@ -1057,6 +1057,7 @@ width: 100%;
     }
     .bunner{
         width: 1024px;
+        border-radius: 10px;
     }
     .bunner :nth-child(5){
         right: 72px;
