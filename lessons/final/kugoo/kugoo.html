@@ -18,8 +18,8 @@
       <div class="head_top">
         <ul>
           <li><a href="kugoo-service.html">Сервис</a></li>
-          <li><a href="#">Сотрудничество</a></li>
-          <li><a href="voprosi.html">Заказать звонок</a></li>
+          <li><button id="myBtn">Сотрудничество</button></li>
+          <li><button id="myBtn">Заказать звонок</button></li>
           <li>
             <a href="#"><img src="kugoo_img/Vector (1).png" /></a>
           </li>
@@ -608,7 +608,8 @@
            покупателей</h1>
         <div class="vopros">
          <ul id="dropDown--menu">
-          <li> <div data-id="1" data-open="false" class="plus"><img src="kugoo_img/Vector (5).png"></div>
+          <li><div data-id="1" data-open="false" class="plus">
+            <img src="kugoo_img/Vector (5).png" alt=""></div>
             <h3>Есть ли гарантия того, что придет именно то, что было заказано? А если я оплачу и товар не придет?</h3>
             <p>При покупке электросамоката у нас, вам выдается кассовый чек, товарный чек и гарантийный талон – эти документы 
               дают право на гарантийное обслуживание на законодательном уровне.
@@ -624,7 +625,8 @@
               В соответствии со ст. 20 ФЗ «О защите прав потребителей» на ремонт по гарантии дается не более 45 дней. В городах, где 
               есть наш сервисный центр ремонт проводится за 3-7 дней.</p>
           </li>
-          <li><div data-id="2" data-open="false" class="plus"><img src="kugoo_img/Vector (5).png"></div>
+          <li><div data-id="2" data-open="false" class="plus">
+            <img src="kugoo_img/Vector (5).png" alt=""></div>
             <h3>Есть ли гарантия того, что придет именно то, что было заказано? А если я оплачу и товар не придет?</h3>
             <p>При покупке электросамоката у нас, вам выдается кассовый чек, товарный чек и гарантийный талон – эти документы 
               дают право на гарантийное обслуживание на законодательном уровне.
@@ -640,7 +642,8 @@
               В соответствии со ст. 20 ФЗ «О защите прав потребителей» на ремонт по гарантии дается не более 45 дней. В городах, где 
               есть наш сервисный центр ремонт проводится за 3-7 дней.</p>
           </li>
-          <li><div data-id="3" data-open="false" class="plus"><img src="kugoo_img/Vector (5).png"></div>
+          <li><div data-id="3" data-open="false" class="plus">
+            <img src="kugoo_img/Vector (5).png" alt=""></div>
             <h3>Есть ли гарантия того, что придет именно то, что было заказано? А если я оплачу и товар не придет?</h3>
             <p>При покупке электросамоката у нас, вам выдается кассовый чек, товарный чек и гарантийный талон – эти документы 
               дают право на гарантийное обслуживание на законодательном уровне.
@@ -656,7 +659,8 @@
               В соответствии со ст. 20 ФЗ «О защите прав потребителей» на ремонт по гарантии дается не более 45 дней. В городах, где 
               есть наш сервисный центр ремонт проводится за 3-7 дней.</p>
           </li>
-          <li><div data-id="4" data-open="false" class="plus"><img src="kugoo_img/Vector (5).png"></div>
+          <li><div data-id="4" data-open="false" class="plus">
+            <img src="kugoo_img/Vector (5).png" alt=""></div>
             <h3>Есть ли гарантия того, что придет именно то, что было заказано? А если я оплачу и товар не придет?</h3>
             <p>При покупке электросамоката у нас, вам выдается кассовый чек, товарный чек и гарантийный талон – эти документы 
               дают право на гарантийное обслуживание на законодательном уровне.
@@ -672,7 +676,8 @@
               В соответствии со ст. 20 ФЗ «О защите прав потребителей» на ремонт по гарантии дается не более 45 дней. В городах, где 
               есть наш сервисный центр ремонт проводится за 3-7 дней.</p>
           </li>
-          <li><div data-id="5" data-open="false" class="plus"><img src="kugoo_img/Vector (5).png"></div>
+          <li> <div data-id="5" data-open="false" class="plus">
+            <img src="kugoo_img/Vector (5).png" alt=""></div>
             <h3>Есть ли гарантия того, что придет именно то, что было заказано? А если я оплачу и товар не придет?</h3>
             <p>При покупке электросамоката у нас, вам выдается кассовый чек, товарный чек и гарантийный талон – эти документы 
               дают право на гарантийное обслуживание на законодательном уровне.
@@ -1142,37 +1147,80 @@
           </li>
         </ul>
       </div>
+    </div>
 
-      
-      
-      
+     <!--voprosi-->
+
+     <div id="myModal" class="modal">
+      <div class="modal-content">
+        
+        <div class="voprosi">
+          <span class="close">&times;</span>
+          <div class="voprosi-left">
+            <h1>
+              Менеджер позвонит<br />
+              вам в течение 5 минут
+            </h1>
+            <p>
+              ответит на все вопросы и проконсультирует<br />
+              по продуктам Kugoo
+            </p>
+
+            <form method="get" action="http://fe.it-academy.by/TestForm.phpphp">
+              <input type="text2" name="carmodel" value="+375 ()...." />
+              <input type="submit2" value="Проконсультироваться" />
+            </form>
+            <input type="checkbox" name="onlynew" />Нажимая на кнопку, вы
+            соглашаетесь на обработку<br />
+            персональных данных и политикой конфиденциальности
+          </div>
+
+          <img src="kugoo_img/portrait3.png" alt="img" />
+        </div>
+      </div>
     </div>
 
 
     <script>
+   var elems = document.getElementsByClassName('plus');
 
-      var elems = document.getElementsByClassName('plus');
-
-      for(var i = 0; i < elems.length; i++) {
-        var elem = elems[i];
-        elem.addEventListener('click', function (event) {
-          var plusBtn = event.currentTarget;
-          if (plusBtn.dataset.open === 'false') {
+for (var i = 0; i < elems.length; i++) {
+    var elem = elems[i];
+    elem.addEventListener('click', function (event) {
+        var plusBtn = event.currentTarget;
+        if (plusBtn.dataset.open === 'false') {
             plusBtn.style.transform = 'rotate(45deg)';
             plusBtn.dataset.open = 'true';
             var id = plusBtn.dataset.id;
-            var currectP = document.querySelector('li:nth-child('+ id +') p');
+            var currectP = document.querySelector('li:nth-child(' + id + ') p');
             currectP.style.display = 'block';
-          } else{
+        } else{
             plusBtn.style.transform = 'rotate(0deg)';
             plusBtn.dataset.open = 'false';
             var id = plusBtn.dataset.id;
-            var currectP = document.querySelector('li:nth-child('+ id +') p');
+            var currectP = document.querySelector('li:nth-child(' + id + ') p');
             currectP.style.display = 'none';
-          }
-          
-        })
-      }
+        }
+    })
+}
+    </script>
+
+    <script>
+      var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }}
     </script>
   </body>
 </html>

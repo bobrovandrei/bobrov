@@ -18,7 +18,7 @@
         <div class="head_top">
           <ul>
             <li><a href="kugoo-service.html">Сервис</a></li>
-            <li><a href="#">Сотрудничество</a></li>
+            <li><button id="myBtn">Сотрудничество</button></li>
             <li><a href="voprosi.html">Заказать звонок</a></li>
             <li>
               <a href="#"><img src="kugoo_img/Vector (1).png" /></a>
@@ -502,8 +502,55 @@
         </div>
         </div>
         </div>
-        
 
+         <!--voprosi-->
+
+     <div id="myModal" class="modal">
+      <div class="modal-content">
+        
+        <div class="voprosi">
+          <span class="close">&times;</span>
+          <div class="voprosi-left">
+            <h1>
+              Менеджер позвонит<br />
+              вам в течение 5 минут
+            </h1>
+            <p>
+              ответит на все вопросы и проконсультирует<br />
+              по продуктам Kugoo
+            </p>
+
+            <form method="get" action="http://fe.it-academy.by/TestForm.php">
+              <input type="text2" name="carmodel" value="+375 ()...." />
+              <input type="submit2" value="Проконсультироваться" />
+            </form>
+            <input type="checkbox" name="onlynew" />Нажимая на кнопку, вы
+            соглашаетесь на обработку<br />
+            персональных данных и политикой конфиденциальности
+          </div>
+
+          <img src="kugoo_img/portrait3.png" alt="img" />
+        </div>
+      </div>
+    </div>
+        
+        <script>
+          var modal = document.getElementById("myModal");
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }}
+        </script>
 
   </body>
 </html>
