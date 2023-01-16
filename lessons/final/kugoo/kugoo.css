@@ -1794,7 +1794,7 @@ width: 500px;
   margin-left: 136px;
 }
 .fix-panel{
-  width: 504px;
+  width: 500px;
     margin-left: 15px;
 }
 .fix-panel ul li {
@@ -1837,17 +1837,48 @@ width: 500px;
 }
 .fix-panel{
   width: 350px;
-  margin-left: 17px;
 }
 .fix-panel ul li {
   margin-right: auto;
+}
+.head6{
+  margin-left: 0%;
+}
+.head6 img {
+  position: absolute;
+  right: 48px;
+  top: 18px;
+}
+.menu__btn {
+  position: absolute;
+  right: 5px;
+  top: 25px;
+}
+.bunner5 {
+  left: 0px;
+}
+.samokat5{
+  margin-left: 0%;
+  left: 0px;
+}
+.prefooter {
+  left: 0px;
+}
+.footer5{
+  left: 0%;
+}
+.search2{
+  margin-left: 0%;
+}
+.fix-panel{
+  margin-left: auto;
+    margin-right: auto;
 }
 }
 
 @media all and (max-width: 388px){
   .mobile{
     width: 320px;
-    margin-left: 13px;
   }
   .search2 input{
     width: 320px;
